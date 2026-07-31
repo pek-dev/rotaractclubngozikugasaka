@@ -289,7 +289,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({ news, onShowToast, onO
 
         <div class="footer">
           Rotaract Club Ngozi Kugasaka • Quartier Kugasaka, Ville de Ngozi, Burundi<br/>
-          Email: rotaractclubngozikugasaka9150@gmail.com | Téléphone: +257 79 000 000 / +257 68 000 000<br/>
+          Email: rotaractclubngozikugasaka9150@gmail.com | Téléphone: +257 67 301 044<br/>
           Document officiel généré le ${new Date().toLocaleDateString('fr-FR')} — Rotaract District 9150
         </div>
 

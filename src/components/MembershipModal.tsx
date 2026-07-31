@@ -142,7 +142,7 @@ export const MembershipModal: React.FC<MembershipModalProps> = ({ isOpen, onClos
                   <input
                     type="tel"
                     required
-                    placeholder="+257 79 000 000"
+                    placeholder="+257 67 301 044"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm text-gray-900 dark:text-white focus:outline-none focus:border-rose-600"

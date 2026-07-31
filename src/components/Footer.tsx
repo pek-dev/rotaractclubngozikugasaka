@@ -72,8 +72,8 @@ export const Footer: React.FC<FooterProps> = ({ onShowToast, onOpenAdmin }) => {
     },
     {
       name: 'WhatsApp',
-      url: 'https://wa.me/25779000000',
-      handle: '+257 79 000 000',
+      url: 'https://wa.me/25767301044',
+      handle: '+257 67 301 044',
       color: 'hover:bg-emerald-600 hover:text-white',
       badgeColor: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30',
       icon: (
@@ -140,11 +140,16 @@ export const Footer: React.FC<FooterProps> = ({ onShowToast, onOpenAdmin }) => {
           {/* Col 1 */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-rose-600 to-pink-600 flex items-center justify-center text-white">
-                <Globe className="w-5 h-5" />
+              <div className="w-12 h-12 rounded-xl bg-white p-1 shadow-md border border-gray-800 flex items-center justify-center overflow-hidden">
+                <img
+                  src="/rotaract_logo.jpg"
+                  alt="Rotaract Club Ngozi - Kugasaka Logo"
+                  className="w-full h-full object-contain"
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <div>
-                <div className="font-bold text-base font-poppins">Rotaract Club</div>
+                <div className="font-bold text-base font-poppins text-white">Rotaract Club</div>
                 <div className="text-xs text-rose-400 font-semibold">Ngozi Kugasaka</div>
               </div>
             </div>

@@ -1378,8 +1378,13 @@ export const AdminDashboardModal: React.FC<AdminDashboardModalProps> = ({
           /* MULTI-ROLE LOGIN FORM */
           <div className="p-6 sm:p-10 max-w-lg mx-auto w-full flex flex-col justify-center my-auto overflow-y-auto">
             <div className="text-center mb-6">
-              <div className="w-16 h-16 rounded-3xl bg-gradient-to-tr from-rose-600 to-pink-600 text-white flex items-center justify-center mx-auto mb-3 shadow-xl shadow-rose-600/30">
-                <ShieldCheck className="w-8 h-8" />
+              <div className="w-20 h-20 rounded-2xl bg-white p-2 text-white flex items-center justify-center mx-auto mb-3 shadow-xl shadow-rose-600/10 border border-gray-100 dark:border-gray-800 overflow-hidden">
+                <img
+                  src="/rotaract_logo.jpg"
+                  alt="Rotaract Club Ngozi Kugasaka Logo"
+                  className="w-full h-full object-contain"
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <h3 className="text-2xl font-bold font-poppins text-gray-900 dark:text-white">
                 Portail d Authentification Multi-Rôles

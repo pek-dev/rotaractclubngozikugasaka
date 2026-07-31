@@ -74,8 +74,13 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Logo */}
           <a href="#accueil" className="flex items-center gap-3 group">
             <div className="relative">
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-rose-600 via-pink-600 to-rose-500 flex items-center justify-center text-white shadow-md shadow-rose-500/25 group-hover:scale-105 transition-transform">
-                <Globe className="w-6 h-6 animate-pulse" />
+              <div className="w-12 h-12 rounded-xl bg-white p-1 shadow-md shadow-rose-500/10 border border-gray-100 dark:border-gray-800 flex items-center justify-center overflow-hidden group-hover:scale-105 transition-transform">
+                <img
+                  src="/rotaract_logo.jpg"
+                  alt="Rotaract Club Ngozi - Kugasaka Logo"
+                  className="w-full h-full object-contain"
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <span className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white dark:border-gray-900" />
             </div>

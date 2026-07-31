@@ -84,7 +84,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ contactContent, 
                 </div>
                 <div>
                   <div className="font-bold text-gray-900 dark:text-white text-sm font-poppins">Téléphone & WhatsApp</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-300 mt-0.5">{contactContent?.phone || '+257 79 000 000 / +257 68 000 000'}</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-300 mt-0.5">{contactContent?.phone || '+257 67 301 044'}</div>
                 </div>
               </div>
 

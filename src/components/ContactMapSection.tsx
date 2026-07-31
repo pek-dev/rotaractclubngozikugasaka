@@ -25,7 +25,7 @@ export const ContactMapSection: React.FC<ContactMapSectionProps> = ({
   address = 'Quartier Kugasaka, Ville de Ngozi, Burundi',
   meetingPlace = 'Salle de Conférence Hôtel Panorama / Centre d Action Ngozi',
   meetingTimes = 'Chaque Samedi de 16h00 à 18h00',
-  phone = '+257 79 000 000 / +257 68 000 000',
+  phone = '+257 67 301 044',
   onShowToast,
 }) => {
   const [activeTab, setActiveTab] = useState<'carte' | 'horaires' | 'transport'>('carte');

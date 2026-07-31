@@ -96,7 +96,7 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
   team: TEAM_DATA,
   contact: {
     email: 'rotaractclubngozikugasaka9150@gmail.com',
-    phone: '+257 79 000 000 / +257 68 000 000',
+    phone: '+257 67 301 044',
     address: 'Quartier Kugasaka, Ville de Ngozi, Burundi',
     meetingTimes: 'Tous les 2ièmes et 4ièmes Samedis du mois à 14h00',
     meetingPlace: 'Salle de Réunion de l\'Hôtel Panorama, Ngozi',
