@@ -1,0 +1,6 @@
+{
+  "name": "Rotaract Club Ngozi Kugasaka",
+  "description": "Plateforme interactive moderne du Rotaract Club Ngozi Kugasaka avec assistant IA Gemini, gestion des événements, activités, galerie et adhésion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,17 @@
+{
+  "short_name": "Rotaract Ngozi",
+  "name": "Rotaract Club Ngozi Kugasaka",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#e11d48",
+  "display": "standalone",
+  "scope": "/",
+  "description": "Application officielle du Rotaract Club Ngozi Kugasaka - District 9150, Province de Ngozi, Burundi."
+}
